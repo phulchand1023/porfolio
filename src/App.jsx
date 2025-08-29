@@ -792,12 +792,12 @@ const Contact = () => {
                 <div>
                   <p className="text-gray-500 text-sm">LinkedIn</p>
                   <a
-                    href="www.linkedin.com/in/phulchand1023"
+                    href="https://linkedin.com/in/phulchand1023"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-800 dark:text-gray-300 hover:text-blue-600"
                   >
-                    www.linkedin.com/in/phulchand1023
+                    linkedin.com/in/phulchand1023
                   </a>
                 </div>
               </div>

@@ -1,15 +1,15 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-
 import tailwindcss from "@tailwindcss/vite";
+
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: "/porfolio/", // 👈 replace <repo-name> with your GitHub repo name
   server: {
-    // This proxies API requests to your backend server running on port 5000
     proxy: {
       "/api": {
-        target: "http://localhost:5000",
+        target: "http://localhost:5000", // local backend
         changeOrigin: true,
         secure: false,
       },
